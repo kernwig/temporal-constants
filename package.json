@@ -1,0 +1,13 @@
+{
+  "name": "temporal-constants",
+  "version": "1.0.0",
+  "description": "Constants to compute with time units without magic numbers.",
+  "main": "temporal-constants.js",
+  "keywords": [
+    "time",
+    "constant",
+    "temporal"
+  ],
+  "author": "Adam Fanello",
+  "license": "MIT"
+}
