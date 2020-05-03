@@ -21,6 +21,10 @@ Or in place of: `setTimer(() => runMyFunction(), 24*60*60*1000)`
 
 you get the clearer (and faster): `setTimer(() => runMyFunction(), MillisecondsInDay)`.
 
+## Compatibility
+
+Compatible with Javascript ES2015/ES6 and newer, as well as Typescript.
+
 ## FAQ
 
 *Q:* Why should I introduce another dependency for a few constants that I can define myself?
