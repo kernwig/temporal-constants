@@ -1,9 +1,9 @@
 {
   "name": "temporal-constants",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Constants to compute with time units without magic numbers.",
-  "main": "temporal-constants",
-  "types": "temporal-constants",
+  "main": "temporal-constants.js",
+  "types": "temporal-constants.d.ts",
   "keywords": [
     "time",
     "constant",
@@ -12,9 +12,14 @@
   "author": "Adam Fanello",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -t ES6 -d --strict temporal-constants.ts"
+    "build": "tsc -d --strict temporal-constants.ts",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
-    "typescript": "^3.8.3"
-  }
+    "typescript": "3.0.x"
+  },
+  "files": [
+    "temporal-constants.js",
+    "temporal-constants.d.ts"
+  ]
 }
